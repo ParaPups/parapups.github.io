@@ -3,6 +3,12 @@
 title: Home
 ---
 <style>
+
+    body {
+        margin: 0;
+        color: white;
+    }
+
   .home {
     background-image: url('https://statesymbolsusa.org/sites/statesymbolsusa.org/files/BeehiveClusterObject44.jpg');
     background-size: contain;
@@ -20,26 +26,23 @@ title: Home
     width: 100%;
   }
 
+  #social-media-links {
+      text-align: center;
+  }
   .social-media-link {
     display: inline-block;
-    height: 2em;
     padding: .5em;
     color: white;
-    border-style: outset;
+    border-style: double;
+    border-color: blue;
     border-width: 10px;
-    font-size: 24pt;
-    background-color: gray;
+    font-size: 16pt;
+    margin: 0.5em;
   }
 
   .social-media-link:hover {
-    border-style: inset;
-    background-color: white;
   }
 
-  .social-media-link svg {
-    color: blue;
-    height: 12pt;
-  }
 
 </style>
 
@@ -48,7 +51,15 @@ title: Home
   <marquee id="construction" behavior="scroll" direction="left" scrollamount="5">UNDER CONSTRUCTION</marquee>
 
   <div id="social-media-links">
-    <a href="https://twitter.com/ParanoidPuppies" class="social-media-link">{% include icon-twitter.svg %} Twitter</a>
+    <h2>Cool Links!</h2>
+    <a href="https://twitter.com/ParanoidPuppies" class="social-media-link">Twitter</a>
+    <a href="https://www.instagram.com/paranoidpuppies/" style="border-color: orange" class="social-media-link">Instagram</a>
+    <a href="https://t.me/parapups" class="social-media-link">Telegram</a>
+    <a href="https://www.deviantart.com/parapups" class="social-media-link" style="border-color: green;">DeviantArt</a>
+    <a href="http://www.furaffinity.net/user/parapups/" class="social-media-link" style="border-color: orange;">Furaffinity</a>
+    <a href="https://www.youtube.com/channel/UCW9zAx1uzvW6R4QrN2FytRA?view_as=subscriber" class="social-media-link" style="border-color: red">YouTube</a>
   </div>
+
+<p>Any ways I can improve this site? Email me at addy@parapups.us!</p>
 
 </div>
