@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <div id="artpiece-wrapper">
+  	  <img id="artpiece-img" src="{{ page.img_src }}">
+  </div>
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+    <span class="copyright-notice">&copy; {{ page.date | date: "%Y" }} - 2019 ParaPups</span>
+  </header>
+
+
+  <div class="post-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+</article>
+
+<script>
+	var artpieceImg = document.getElementById("artpiece-img"),
+		zoomedIn = false;
+
+	function zoomArtpiece(event) {
+		if (!zoomedIn) {
+			artpieceImg.style = "max-height: none; cursor: zoom-out; max-width: none;";
+			zoomedIn = true;
+		} else {
+			artpieceImg.style = "cursor: zoom-in";
+			zoomedIn = false;
+		}
+	}
+
+	artpieceImg.onclick = zoomArtpiece;
+
+
+</script>

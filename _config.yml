@@ -19,5 +19,10 @@ github_username:  ParaPups
 telegram_username: ParaPups
 instagram_username: ParanoidPuppies
 
+collections:
+  artpieces:
+    output: true
+    permalink: "/art/:name"
+
 # Build settings
 markdown: kramdown
