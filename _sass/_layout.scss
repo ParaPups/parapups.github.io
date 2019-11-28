@@ -28,8 +28,10 @@
 }
 
 .site-nav {
-    float: right;
-    line-height: 56px;
+	float: right;
+
+	.wrapper {
+	}
 
     .menu-icon {
         display: none;
@@ -38,12 +40,19 @@
     .page-link {
         color: white;
         line-height: $base-line-height;
+		display: inline-flex;
+		vertical-align: middle;
+		align-items: center;
+		line-height: 56px;
+		margin: 0 10px;
+		vertical-align: middle;
 
-        // Gaps between nav items, but not on the last one
-        &:not(:last-child) {
-            margin-right: 20px;
-        }
+		&:hover {
+			text-decoration: none;
+			color: gray;
+		}
     }
+
 
     @include media-query($on-palm) {
         position: absolute;
@@ -166,7 +175,6 @@
 }
 
 
-
 /**
  * Page content
  */
@@ -185,6 +193,12 @@
     > li {
         margin-bottom: $spacing-unit;
     }
+}
+
+.post-item {
+	border: 1px solid black;
+	box-sizing: border-box;
+	padding: 1em;
 }
 
 .post-meta {
@@ -242,4 +256,43 @@
             font-size: 18px;
         }
     }
+}
+
+
+/**
+ * Gallery
+ */
+
+#gallery {
+	display: flex;
+	margin: auto;
+}
+
+ .gallery-item {
+	 height: 200px;
+	 margin: 0;
+	 border: 1px solid black;
+ }
+
+.gallery-item img {
+	height: 90%;
+}
+
+.gallery-item figcaption {
+	text-align: center;
+}
+
+
+
+/**
+ * Artpiece
+ */
+
+#artpiece-wrapper {
+	text-align: center;
+}
+
+#artpiece-img {
+	max-height: 500px;
+	cursor: zoom-in
 }
