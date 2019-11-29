@@ -1,5 +1,12 @@
 <header class="site-header">
 
+    <div id="mobile-header">
+        <div id="nav-button-container">
+            <div id="nav-button"></div>
+        </div>
+    </div> <!-- END #mobile-header -->
+
+
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
     <nav class="site-nav">
@@ -11,7 +18,7 @@
         </svg>
       </a>
 
-      <div class="trigger">
+      <div class="trigger" style="transform: translate(0px);">
 		  <a class="page-link" href="{{ site.baseurl }}/index.html">Home</a>
           <a class="page-link" href="{{ site.baseurl }}/about">About</a>
           <a class="page-link" href="{{ site.baseurl }}/gallery">Gallery</a>
