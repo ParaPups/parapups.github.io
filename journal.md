@@ -3,6 +3,8 @@ layout: page
 title: Journal
 permalink: /journal/
 ---
+<a href="{{ site.url }}/home">ParaPups</a> &gt;&gt; Journal
+
 <ul class="post-list">
   {% for post in site.posts %}
     <li class="post-item">
@@ -13,9 +15,11 @@ permalink: /journal/
       </h2>
 
 	  <span>{{ post.excerpt | strip_html | truncatewords: 75 }}</span>
-	  <a href="{{ post.url}}">read more</a>
+      <div class="read-more-wrapper">
+	         <a href="{{ post.url}}">Read more &gt;&gt;&gt;</a>
+      </div>
     </li>
   {% endfor %}
 </ul>
 
-<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>

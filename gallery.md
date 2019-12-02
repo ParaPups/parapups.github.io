@@ -3,16 +3,18 @@ layout: page
 title: Gallery
 permalink: /gallery/
 ---
+<a href="{{ site.baseurl }}/home">ParaPups</a> &gt;&gt; Gallery
+
 <div id="gallery">
 	{% for artpiece in site.artpieces %}
-		<a href="{{ artpiece.url | prepend: site.baseurl }}">
-	    	<figure class="gallery-item">
+    	<figure class="gallery-item">
+			<a href="{{ artpiece.url | prepend: site.baseurl }}">
 	        	<img src="{{ artpiece.img_src }}">
 	        	<figcaption>
 	              {{ artpiece.title }}
 	        	</figcaption>
-	    	</figure>
-		</a>
+			</a>
+    	</figure>
   	{% endfor %}
 </div>
 
