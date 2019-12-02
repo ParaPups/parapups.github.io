@@ -1,3 +1,6 @@
+.content-wrapper {
+    margin: 0.5*$spacing-unit $spacing-unit;
+}
 /**
  * Site header
  */
@@ -175,16 +178,89 @@
     }
 }
 
+/**
+ * Home Page
+ */
+#home-header {
+    background-color: $grey-color-light;
+    text-align: center;
+
+    #parapups-logo {
+        padding: 12pt;
+        svg {
+            height: 300px;
+        }
+    }
+}
+
+#social-media-links {
+    text-align: center;
+    a {
+        display: inline-block;
+        margin: 10pt;
+
+        img {
+            vertical-align: middle;
+            width: 40px;
+            height: 40px;
+
+            }
+    }
+}
+
+.social-media-name {
+    display:none;
+
+    &:hover + div {
+        :after {
+            display: block;
+        }
+    }
+}
+
+
+
 
 /**
  * Page content
  */
-.page-content {
-    padding: $spacing-unit 0;
+ .page-header {
+     font-size: 20px;
+     padding: $spacing-unit;
+     background-color: $grey-color;
+ }
+
+ .page-title {
+     font-size: 42px;
+     letter-spacing: -1px;
+     line-height: 1;
+     text-align: center;
+     @include media-query($on-laptop) {
+         font-size: 36px;
+     }
+
+     a {
+         display: block;
+     }
+ }
+
+/* Just in case you change your mind
+#back-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+*/
+.content {
+    //padding: $spacing-unit 0;
 }
 
-.page-heading {
-    font-size: 20px;
+
+/**
+ * Journal page
+ */
+.read-more-wrapper {
+    text-align: right;
 }
 
 .post-list {
@@ -205,34 +281,34 @@
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
+
 }
 
 .post-link {
     display: block;
     font-size: 24px;
 }
- // Note to self, figure out what the heck this bracket is closing
 
 
 /**
  * Posts
  */
 .post-header {
-    margin-bottom: $spacing-unit;
+    margin: 0.5*$spacing-unit $spacing-unit;
 }
 
 .post-title {
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
+    margin: 0;
 
     @include media-query($on-laptop) {
         font-size: 36px;
     }
 }
 
-.post-content {
-    margin-bottom: $spacing-unit;
+.post-wrapper {
 
     h2 {
         font-size: 32px;
@@ -263,16 +339,20 @@
 /**
  * Gallery
  */
-
 #gallery {
 	display: flex;
 	margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-around; //space-around?
+    align-content: stretch;
 }
 
  .gallery-item {
 	 height: 200px;
 	 margin: 0;
 	 border: 1px solid black;
+     flex-grow: 1;
+     text-align: center;
  }
 
 .gallery-item img {
@@ -282,7 +362,6 @@
 .gallery-item figcaption {
 	text-align: center;
 }
-
 
 
 /**
