@@ -9,9 +9,9 @@
 title: ParaPups
 email: paranoidpuppies@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  The personal website of an Addy C. Acro-Santos, professional loser and
-  self-domesticated chimp with an affinity for sapient canids.
-  Also an animation geek, trivia geek, tech nerd, & some other things too
+  The personal website of Lucky "Addy" C. Acro-Santos, professional loser and
+  self-domesticated chimp with an affinity for anthropomorphic canids.
+  Expect art and random blog posts.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.parapups.us" # the base hostname & protocol for your site
 twitter_username: ParanoidPuppies
