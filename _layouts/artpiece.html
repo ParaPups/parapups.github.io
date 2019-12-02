@@ -1,28 +1,34 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+<header class="page-header">
+    <h1 class="page-title">
+        <a href="{{ site.baseurl }}/gallery">Gallery</a>
+    </h1>
+</header>
 
-  <header class="post-title gallery-header artpiece-header">
-      <h1>Gallery</h1>
-  </header>
+<div class="breadcrumbs">
+    <a href="{{ site.baseurl }}/home">ParaPups</a> &gt;&gt;
+    <a href="{{ site.baseurl }}/gallery">Gallery</a> &gt;&gt; {{ page.title }}
+</div>
 
-  <div id="artpiece-img-wrapper">
-  	  <img id="artpiece-img" src="{{ page.img_src }}">
-  </div>
+<main>
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+      <div id="artpiece-img-wrapper">
+      	  <img id="artpiece-img" src="{{ page.img_src }}">
+      </div>
 
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
-    <span class="copyright-notice">&copy; {{ page.date | date: "%Y" }} - 2019 ParaPups</span>
-  </header>
+      <div class="content" itemprop="articleBody">
+          <header class="post-header">
+            <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+            <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+            <span class="copyright-notice">&copy; {{ page.date | date: "%Y" }} - 2019 ParaPups</span>
+          </header>
+          {{ content }}
+      </div>
 
-
-  <div class="post-content" itemprop="articleBody">
-    {{ content }}
-  </div>
-
-</article>
+    </article>
+</main>
 
 <script>
 	var artpieceImg = document.getElementById("artpiece-img"),
