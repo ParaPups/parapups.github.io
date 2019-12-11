@@ -6,7 +6,7 @@ permalink: /gallery/
 <a href="{{ site.baseurl }}/home">ParaPups</a> &gt;&gt; Gallery
 
 <div id="gallery">
-	{% for artpiece in site.artpieces %}
+	{% for artpiece in site.categories._artpieces %}
     	<figure class="gallery-item">
 			<a href="{{ artpiece.url | prepend: site.baseurl }}">
 	        	<img src="{{ artpiece.img_src }}">
