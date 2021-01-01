@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Farewell 2020
-date:   2020-12-31 19:57:00 -0800
+date:   2020-12-31
 author: Adi
 categories: new years
 ---
