@@ -23,6 +23,10 @@ collections:
   artpieces:
     output: true
     permalink: "/art/:name"
+  blog:
+    output: true
+    permalink: "/blog/:name"
+    
 
 # Build settings
 markdown: kramdown
