@@ -187,8 +187,9 @@
 
     #parapups-logo {
         padding: 12pt;
-        svg {
-            height: 300px;
+        height: 300px;
+        img {
+            height: 100%;
         }
     }
 }
@@ -197,15 +198,20 @@
     text-align: center;
     a {
         display: inline-block;
-        margin: 10pt;
+        padding: 10pt;
 
         img {
             vertical-align: middle;
             width: 40px;
             height: 40px;
+        }
 
-            }
+        &:hover {
+            background: $grey-color-dark;
+            border-radius: 5px;
+        }
     }
+
 }
 
 .social-media-name {
@@ -215,10 +221,13 @@
         :after {
             display: block;
         }
+
     }
 }
 
-
+#home-gallery {
+    display: flex;
+}
 
 
 /**

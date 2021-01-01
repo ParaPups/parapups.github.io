@@ -6,7 +6,7 @@ permalink: /journal/
 <a href="{{ site.url }}/home">ParaPups</a> &gt;&gt; Journal
 
 <ul class="post-list">
-  {% for post in site.posts %}
+  {% for post in site.categories.blog %}
     <li class="post-item">
       <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
