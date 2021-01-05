@@ -8,8 +8,8 @@
 # Site settings
 title: ParaPups
 email: paranoidpuppies@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  The personal website of Lucky "Addy" C. Acro-Santos, professional loser and
+description: >
+  The personal website of Lucky "Adi" C. Acro-Santos, professional loser and
   self-domesticated chimp with an affinity for anthropomorphic canids.
   Expect art and random blog posts.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -19,14 +19,9 @@ github_username:  ParaPups
 telegram_username: ParaPups
 instagram_username: ParanoidPuppies
 
-collections:
-  artpieces:
-    output: true
-    permalink: "/art/:name"
-  blog:
-    output: true
-    permalink: "/blog/:name"
-    
+permalink: "/:categories/:title:output_ext"
 
-# Build settings
-markdown: kramdown
+posts:
+  gallery:
+    output: true
+    permalink: "/gallery/:title:output_ext"

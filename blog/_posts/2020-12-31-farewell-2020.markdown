@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog-post
 title: Farewell 2020
 date:   2020-12-31
 author: Adi

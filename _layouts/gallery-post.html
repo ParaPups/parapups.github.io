@@ -1,0 +1,54 @@
+---
+layout: default
+categories: gallery-posts
+---
+<header class="page-header">
+    <h1 class="page-title">
+        <a href="{{ site.baseurl }}/gallery">Gallery</a>
+    </h1>
+</header>
+
+<div id="breadcrumbs">
+    <a href="{{ site.baseurl }}/">ParaPups</a> &gt;&gt;
+    <a href="{{ site.baseurl }}/gallery">Gallery</a> &gt;&gt; {{ page.title }}
+</div>
+
+<main id="main">
+    <article id="gallery-post-wrapper" class="post" itemscope itemtype="http://schema.org/BlogPosting">
+        <div id="gallery-post-img-wrapper">
+      	     <img id="gallery-post-img" src="{{ page.img_src }}">
+        </div>
+
+        <div id="gallery-post-text" itemprop="articleBody">
+            <header class="gallery-post-header">
+                <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+                <p class="gallery-post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+
+            </header>
+            <section id="gallery-post-description">
+                {{ content }}
+                <span class="copyright-notice">&copy; {{ page.date | date: "%Y" }} - {{ site.time | date: "%Y" }} ParaPups</span>
+            </section>
+        </div>
+
+    </article>
+</main>
+
+<script>
+	var galleryPostImg = document.getElementById("gallery-post-img"),
+		zoomedIn = false;
+
+	function zoomArtpiece(event) {
+		if (!zoomedIn) {
+			galleryPostImg.style = "max-height: none; cursor: zoom-out; max-width: none;";
+			zoomedIn = true;
+		} else {
+			galleryPostImg.style = "cursor: zoom-in";
+			zoomedIn = false;
+		}
+	}
+
+	galleryPostImg.onclick = zoomArtpiece;
+
+
+</script>

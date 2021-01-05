@@ -7,7 +7,7 @@
  */
 
 /* Notes
-    This script is repurposed from an attempted swcta.net redesign. It requires a nav element, a button (can be a div) with an id of "nav-button", a 100% width div with the id "nav-button-container", and a main element.
+    This script is repurposed from an attempted swcta.net redesign. It requires a nav element, a button (can be a div) with an id of "nav-button", a 100% width div with the id "nav-button-container", and a torsoer element.
 
     Important: It is the navButtonContainer that is translated, NOT the navButton itself.
 */
@@ -16,8 +16,8 @@
 var nav = document.getElementsByTagName("nav")[0],
     navButton = document.getElementById("nav-button"),
     navButtonContainer = document.getElementById("nav-button-container"),
-    main = document.getElementsByTagName("main")[0],
-    header = document.getElementsByClassName("page-title")[0],
+    torsoer = document.getElementById("torsoer"),
+    //header = document.getElementById("mobile-header"),
     onpage = false; // Decides if Nav is in view of user
 
 // Puts Nav on page
@@ -60,11 +60,11 @@ function slideoutclick() {
 // Onclick of Nav Button (slidein and slideout)
 navButton.addEventListener("click", slide);
 
-// Onclick of Main (slideoutclick)
-main.addEventListener("click", slideout);
+// Onclick of torsoer (slideoutclick)
+torsoer.addEventListener("click", slideout);
 
 // Onclick of Header (also slideoutclick)
-header.addEventListener("click", slideout);
+//header.addEventListener("click", slideout);
 
 // Unload (slideoutclick)
 window.addEventListener("beforeunload", slideout);

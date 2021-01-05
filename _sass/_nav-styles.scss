@@ -4,8 +4,11 @@
     overflow: hidden;
 }
 
-#mobile-header {
+#mobile-header, #nav-button-container {
     display: none;
+}
+
+#mobile-header {
     width: 100vw;
     background-color: black;
     background-image: url("../media/sillouhette.svg");
@@ -26,12 +29,27 @@
 
 @media (max-width: 700px) {
 
+    #mobile-header, #nav-button-container {
+        display: block;
+    }
+
+    #skipnav {
+        right: 0;
+        left: auto;
+    }
+
     /* Makes #mobile-header visible */
     #mobile-header {
         display: block;
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
+    }
+
+    #nav-button-container, .site-nav {
+        z-index: 20;
+        position: fixed;
+        top: 0;
     }
 
     #nav-button-container, nav {
