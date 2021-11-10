@@ -1,0 +1,95 @@
+
+#mobile-header, #nav-button {
+    height: 56px;
+    overflow: hidden;
+}
+
+#mobile-header, #nav-button-container {
+    display: none;
+}
+
+#mobile-header {
+    width: 100vw;
+    background-color: black;
+    background-image: url("../media/sillouhette.svg");
+}
+
+#nav-button {
+    width: 48pt;
+    background-color: black;
+    background-image: url(../media/icons/nav-button.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#nav-button:hover {
+    background-image: url(../media/icons/nav-button-reverse.svg);
+}
+
+@media (max-width: 700px) {
+
+    #mobile-header, #nav-button-container {
+        display: block;
+    }
+
+    #skipnav {
+        right: 0;
+        left: auto;
+    }
+
+    /* Makes #mobile-header visible */
+    #mobile-header {
+        display: block;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    #nav-button-container, .site-nav {
+        z-index: 20;
+        position: fixed;
+        top: 0;
+    }
+
+    #nav-button-container, nav {
+        width: 250px;
+        transition: transform 0.33s;
+    }
+
+    nav {
+        left: -250px;
+        top: 0;
+        color: #333;
+        margin: 0;
+        position: fixed;
+        height: 100vh;
+        background-color: black;
+        overflow: scroll;
+    }
+
+    .site-nav {
+        display: block;
+        padding: 0;
+        text-align: center;
+    }
+
+    .site-nav a {
+        box-sizing: border-box;
+        color: white;
+        display: block;
+        font-size: 18pt;
+        padding: 12pt;
+        width: 100%;
+        align: center;
+    }
+
+    .site-nav a:hover {
+        background-color: white;
+        color: #007ABC;
+    }
+
+    main {
+        //padding-top: 48pt;
+    }
+}

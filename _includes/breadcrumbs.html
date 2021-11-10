@@ -1,0 +1,9 @@
+<div id="breadcrumbs">
+    <a href="{{ site.baseurl }}/">ParaPups</a> &gt;&gt;
+
+    {% if page.categories %}
+    <a href="{{ site.baseurl }}/{{ page.categories[0]}}"> {{ page.categories[0] | capitalize }}</a>  &gt;&gt;
+    {% endif %}
+
+    {{ page.title }}
+</div>

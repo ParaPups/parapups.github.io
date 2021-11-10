@@ -1,0 +1,8 @@
+---
+layout: gallery-post
+title: Under Arrest
+img_src: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a4444378-5d7b-4e47-824a-f7ec767af29d/dc5r3tj-4319ef36-cd5a-421c-abec-6af61648fe90.png/v1/fill/w_1024,h_644,strp/under_arrest_by_parapups_dc5r3tj-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjQ0IiwicGF0aCI6IlwvZlwvYTQ0NDQzNzgtNWQ3Yi00ZTQ3LTgyNGEtZjdlYzc2N2FmMjlkXC9kYzVyM3RqLTQzMTllZjM2LWNkNWEtNDIxYy1hYmVjLTZhZjYxNjQ4ZmU5MC5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.NGLWSs9iHn-gyvovpnCZBnywl-GhWD1m2YOHfipIjUU"
+---
+Easily the two best adoptees of season one. I ship 'em. :)
+
+Pound Puppies is owned by Hassenfeld Brothers.

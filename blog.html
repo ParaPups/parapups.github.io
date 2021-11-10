@@ -1,0 +1,23 @@
+---
+layout: page
+title: Blog
+permalink: /blog/
+---
+<ul id="blog">
+  {% for post in site.categories.blog %}
+    <li class="blog-item">
+      <span class="blog-item-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+      <h2>
+        <a class="blog-item-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h2>
+
+	  <span>{{ post.excerpt | strip_html | truncatewords: 75 }}</span>
+      <div class="read-more-wrapper">
+	         <a href="{{ post.url}}">Read more &gt;&gt;&gt;</a>
+      </div>
+    </li>
+  {% endfor %}
+</ul>
+
+<span class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></span>
