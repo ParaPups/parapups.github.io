@@ -6,49 +6,25 @@ title: Home
 	<div id="parapups-logo">
 		<img src="{{ site.baseurl }}/media/parapups-logo/logo_outline_wordmark.svg">
 	</div>
-	<div id="social-media-links">
-		<a href="https://twitter.com/ParanoidPuppies">
-			<img src="{{ site.baseurl }}/media/icons/twitter.svg" alt="Twitter">
-		</a>
-		<a href="https://www.instagram.com/paranoidpuppies/">
-			<img src="{{ site.baseurl }}/media/icons/instagram.svg" alt="Instagram">
-			<div class="social-media-name">Instagram</div>
-		</a>
-		<a href="https://t.me/parapups">
-			<img src="{{ site.baseurl }}/media/icons/telegram.svg" alt="Telegram">
-		</a>
-		<a href="https://www.deviantart.com/parapups">
-			<img src="{{ site.baseurl }}/media/icons/deviantart.svg" alt="DeviantArt">
-		</a>
-		<a href="https://parapups.tumblr.com/">
-			<img src="{{ site.baseurl }}/media/icons/tumblr.svg" alt="Tumblr">
-		</a>
-		<a href="http://www.furaffinity.net/user/parapups/">
-			<img src="{{ site.baseurl }}/media/icons/fa_logo.png" alt="Furaffinity">
-		</a>
-		<a href="https://www.youtube.com/channel/UCW9zAx1uzvW6R4QrN2FytRA">
-			<img src="{{ site.baseurl }}/media/icons/youtube.svg" alt="YouTube">
-		</a>
-	</div>
+	{% include social-media-icons.html %}
 </header>
 
 <article id="home-about">
 	<a href="/about/"><h1>About Me</h1></a>
-	<p>Hello! Welcome to parapups.dog, the personal website of a professional loser dog! Name’s Lucky “Adi” C. Acro-Santos. This is where I dump my art and random ideas, my own personal corner of the Internet, away from the walled gardens of social media networks.</p>
-
-	<p>In reality I’m just a self-domesticated chimp with a particular affinity for anthropomorphic animals. I’m an animation geek, trivia geek, tech nerd, etc. I’m a sophomore at the University of Nevada, Las Vegas studying for a Bachelor’s in Electrical Engineering. I’m demi-bisexual and in a happy relationship.</p>
+	<p>Hello! Welcome to parapups.us, the personal website of a professional loser dog! Name’s Addy C. Acro-Santos. This is where I dump my art and random ideas, my own personal corner of the Internet, away from the walled gardens of social media networks.</p>
 </article>
 
+
 <div id="home-gallery">
-<a href="/gallery/"><h1>Gallery</h1></a>
-{% for artpiece in site.categories.gallery %}
-	<figure class="gallery-item">
-		<a href="{{ artpiece.url | prepend: site.baseurl }}">
-        	<img src="{{ artpiece.img_src }}">
-        	<figcaption>
-              {{ artpiece.title }}
-        	</figcaption>
-		</a>
-	</figure>
-	{% endfor %}
+	<a href="/gallery/"><h1>Gallery</h1></a>
+	{% for artpiece in site.categories.gallery %}
+		<figure class="gallery-item">
+			<a href="{{ artpiece.url | prepend: site.baseurl }}">
+				<img src="{{ artpiece.img_src }}">
+				<figcaption>
+				{{ artpiece.title }}
+				</figcaption>
+			</a>
+		</figure>
+		{% endfor %}
 </div>
