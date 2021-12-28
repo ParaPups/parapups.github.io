@@ -7,11 +7,9 @@
 
 # Site settings
 title: ParaPups
-email: paranoidpuppies@gmail.com
+email: addy@parapups.us
 description: >
-  The personal website of Lucky "Adi" C. Acro-Santos, professional loser and
-  self-domesticated chimp with an affinity for anthropomorphic canids.
-  Expect art and random blog posts.
+  The personal website of Addy C. Acro-Santos.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.parapups.us" # the base hostname & protocol for your site
 twitter_username: ParanoidPuppies

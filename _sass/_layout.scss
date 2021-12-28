@@ -232,7 +232,6 @@
     margin-right: auto;
     margin-left: auto;
     padding: 0.25*$spacing-unit 0;
-    background-color: $grey-color-light;
 
     @include media-query($on-laptop) {
         max-width: calc(#{$content-width} - (#{$spacing-unit}));
@@ -378,13 +377,14 @@
 /**
  * Blog Posts
  */
-.post-header {
+.blog-post-header {
     margin: 0.5*$spacing-unit $spacing-unit;
     border-bottom: 2px solid $grey-color-dark;
     padding: 0.5*$spacing-unit 0;
+    text-align: center;
 }
 
-.post-title {
+.blog-post-title {
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
@@ -395,7 +395,7 @@
     }
 }
 
-.post-wrapper {
+.blog-post-wrapper {
     h2 {
         font-size: 32px;
 
@@ -419,4 +419,11 @@
             font-size: 18px;
         }
     }
+}
+
+/**
+ * Disqus
+ */
+#disqus-wrapper {
+    margin: 12pt;
 }
