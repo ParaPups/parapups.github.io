@@ -18,7 +18,7 @@ Locally, things were more optimistic. In addition to maintaining the country’s
 <figure>
     <img src="https://upload.wikimedia.org/wikipedia/commons/3/37/Constitutional_bans_on_same-sex_unions_types_US.svg"
          alt="A map of the US highlighting states that have constitutional bans on same sex unions">
-    <figcaption>Look at this b**ch (<a href="https://commons.wikimedia.org/wiki/File:Constitutional_bans_on_same-sex_unions_types_US.svg">Diagram</a> by Jersyko and other Wikipedia Contributors / <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0 </a></figcaption>
+    <figcaption>Look at this b**ch (<a href="https://commons.wikimedia.org/wiki/File:Constitutional_bans_on_same-sex_unions_types_US.svg">Diagram</a> by Jersyko and other Wikipedia Contributors / <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0)</a></figcaption>
 </figure>
 
 Also, the 2020 election resulted in two members of the DSA taking public office in Clark County: one Eighth Judicial District judge and one CCSD trustee, setting the stage for what was to come.
