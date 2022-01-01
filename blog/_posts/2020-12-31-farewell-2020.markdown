@@ -3,7 +3,7 @@ layout: blog-post
 title: Farewell 2020
 date:   2020-12-31
 author: Addy
-categories: new years
+tags: new years
 ---
 It’s been a long freaking year.
 

@@ -18,8 +18,3 @@ telegram_username: ParaPups
 instagram_username: ParanoidPuppies
 
 permalink: "/:categories/:title:output_ext"
-
-posts:
-  gallery:
-    output: true
-    permalink: "/gallery/:title:output_ext"

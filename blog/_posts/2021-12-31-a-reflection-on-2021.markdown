@@ -3,7 +3,7 @@ title: "2021: A Reflection"
 layout: blog-post
 date: 2021-12-31 20:00 -0700
 author: Addy
-categories: new years
+tags: new years
 ---
 # Introduction
 I've always loved the last week of the year. It's a week where the world stops. Where nothing happens, and nothing will happen until January 3rd. The brisk cold air and overcast clouds puts me in a certain mood. It's a time of reflection and, for me, time for planning. 
