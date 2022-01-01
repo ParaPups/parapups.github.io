@@ -1,4 +1,5 @@
 ---
+title: "2021: A Reflection"
 layout: blog-post
 date: 2021-12-31 20:00 -0700
 author: Addy
