@@ -1,13 +1,17 @@
+---
 layout: blog-post
 title: Tidings of Comfort and Joy
 date:   2024-12-29
 author: Addy
 tags: christmas
 ---
+
 Merry Fifth Day of Christmas everyone. I wanted to get this out on the Third Day, but, well, the muse wasn’t with me.
 
 This year I'm going to do something different. I'm gonna write two reflections: the usual one where I review the year that was, and another where I put down my thoughts on what the future holds. 
+
 ---
+
 ## In the Days of King Herod
 Some time around the year -3, a newly betrothed couple gave birth to a child in Bethlehem, a small town south of Jerusalem in what is now the West Bank of Palestine but was then part of the Kingdom of Judea, a client state of the Roman Empire, ruled over by King Herod. Curiously, the mother, Miriam, had become pregnant before her  marriage, and the father, Yosef, had not yet slept with her. They named the child Yeshua, a common name meaning “God saves,” and went to Nazareth, a small town in Galilee, to the north of Judea in what is now the Northern District of Israel.
 
@@ -18,7 +22,9 @@ In Matthew, the couple seems to already live in Bethlehem, and the three magi vi
 The version of the nativity we imagine in popular culture is a combination of the two stories. Luke's version feels like it’s closer to reality, even if the census he wrote about didn't seem to happen. Matthew’s version feels more thematic, with the whole “go to Egypt to escape a king killing all the newborns” sounding very Prince of Egypt-y. Not to mention the whole “Jesus will be more popular with Gentile rulers than Jewish ones” thing.
 
 Don’t get me wrong, I love the story of the Nativity. And I guess it would be stranger if two guys writing about an event they were not there for nearly a century after it happened did match up. But there’s no historical record of the census in Luke, no historical record of the Massacre of the Innocents in Matthew, and both Gospels say St. Joseph is descended from King David and list every person between David and Joseph…except the lists don’t really match up?
+
 ---
+
 ## O tidings of comfort and joy
 This year I’ve been going all in on Christmas, and I think it started with a trip to Goodwill where I saw a decoration with the words “Comfort and Joy” written on it. It's dumb, I know, but something about that resonated with me. Or maybe it started when I bought a wreath for the door which became a gateway to covering my apartment with strings of cheap LEDs.
 
