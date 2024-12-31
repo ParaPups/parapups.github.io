@@ -1,13 +1,14 @@
 ---
 layout: blog-post
 title: Tidings of Comfort and Joy
-date:   2024-12-29
+date: 2024-12-29
 author: Addy
 tags: christmas
 ---
 
 Merry Fifth Day of Christmas everyone. I wanted to get this out on the Third Day, but, well, the muse wasn’t with me.
 This year I'm going to do something different. I'm gonna write two reflections: the usual one where I review the year that was, and another where I put down my thoughts on what the future holds. 
+
 ---
 
 ## In the Days of King Herod
